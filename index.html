@@ -613,8 +613,8 @@
         BPAD = 0.5;
       const COLORS = ["#FF6B35", "#4FC3F7", "#AB47BC", "#FFD54F"];
       const COLORS_INT = [0xff6b35, 0x4fc3f7, 0xab47bc, 0xffd54f];
-      const NAMES = ["Torchic", "Piplup", "Mewtwo", "Articuno"];
-      const POKEMON_KEYS = ["torchic", "piplup", "mewtwo", "articuno"];
+      const NAMES = ["Piplup", "Mewtwo", "Articuno", "Torchic"];
+      const POKEMON_KEYS = ["piplup", "mewtwo", "articuno", "torchic"];
       const SNAKES = [
         { s: 99, e: 54 },
         { s: 70, e: 55 },
@@ -804,7 +804,7 @@
       const snakeAudio = new Audio("snake.mp3");
       snakeAudio.volume = 0.7;
       const bgmAudio = new Audio("bgm.ogg");
-      bgmAudio.volume = 0.175;
+      bgmAudio.volume = 0.175 / 2;
       bgmAudio.loop = true;
 
       const FACE_ROT = {
